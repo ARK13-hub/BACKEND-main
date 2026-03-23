@@ -4,6 +4,12 @@ const app = express();
 
 app.use(express.json());
 
+/*•	"Give me data" → GET
+•	"Send new data" → POST
+•	"Update data" → PUT
+•	"Delete data" → DELETE*/
+
+
 // GET
 app.get("/users", (req, res) => {
   res.send("Here is the users list");

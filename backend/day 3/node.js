@@ -12,3 +12,10 @@
 //git add .  // Stages all changes in the current directory for the next commit
 //git commit -m "commit message"  // Commits the staged changes with a descriptive message
 //git push origin <branch-name>  // Pushes the committed changes to the specified branch on the remote repository
+
+
+/*Javascript runtime helps you to develop or work outside the browser
+ Create APIs
+ Do backend development
+ Build servers
+ work with files*/

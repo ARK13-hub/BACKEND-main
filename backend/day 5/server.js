@@ -63,3 +63,29 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+
+
+
+//////or///////
+
+
+/*// Load the built-in 'http' module
+const http = require('http');
+
+// Create the server
+const server = http.createServer((req, res) => {
+  // Set response headers
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+
+  // Send response body
+  res.end('Hello, World!\n');
+});
+
+// Define the port
+const PORT = 3000;
+
+// Start listening
+server.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}/`);
+});*/
